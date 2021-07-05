@@ -33,9 +33,11 @@ Programa criado usando o android studio 4.2.2 utilizando o FLUTTER usando a bibl
  ### Build
  Para realizar o download do APK acesse o link abaixo ( lembrando que o target api é acima da 23, Android 6.0 )
  
- [V1](https://drive.google.com/file/d/1ibMEIBoj0fO581beyLRyvvE3ue4vtOVC/view?usp=sharing)
+ [V1](https://drive.google.com/file/d/1uG25poYhI8D3f6VnETTNKajvsReSW43I/view?usp=sharing)
+ 
+ [DEBUG](https://drive.google.com/file/d/1IOQULdeYHxeEjMqhq6l9-P1s8utYBXm4/view?usp=sharing)
  
  
  - Video demonstrando o funcionamento do app
  
- [VIDEO]
+ [VIDEO](https://drive.google.com/file/d/17_RdfZFOpuonTPyTBzF2ErLgAiskHJcT/view?usp=sharing)
