@@ -21,7 +21,7 @@ window_size:
     path: plugins/window_size
 ```
 ### Observações
-Programa criado usando o android studio 4.0.1 utilizando o FLUTTER usando a biblioteca nativa do Http para consumir a Api do https://pokeapi.co/ e a dependecia do floor para ajudar na integração com o SQLite.
+Programa criado usando o android studio 4.2.2 utilizando o FLUTTER usando a biblioteca nativa do Http para consumir a Api do https://pokeapi.co/ e a dependecia do floor para ajudar na integração com o SQLite.
 
  Os layouts foram construidos usando Material Design da google
  #### Aplicação simples usando o BottomNavigator para mudanças de telas sendo elas:
