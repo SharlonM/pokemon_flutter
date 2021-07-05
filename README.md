@@ -1,16 +1,41 @@
-# movies_flutter
 
-aplicação para listar os filmes mais famosos e em cartazes no cinema
+# **Pokemon**
+## **Listando Pokemons**
+### Veja os detalhes dos pokemons e salve seus pokemons favoritos localmente
 
-## Getting Started
+#### Funcionalidades esperadas
+- [x] Listar pokemons incluindo suas habilidades e caracteristicas
+- [ ] Implementar conceito infite loading ( decisão pessoal de não colocar para automatico, quem desejar pode remover o botão e colocar a função direto )
+- [x] Selecionar pokemon e ver seus detalhes
+- [x] Buscar pokemons por nome ( opcional )
+- [x] Salvar informações dos pokemons em banco local ( opcional )
 
-This project is a starting point for a Flutter application.
+#### Dependencias usadas
+```
+cupertino_icons: ^1.0.2
+floor: ^1.1.0
+http: ^0.13.3
+window_size:
+  git:
+    url: git://github.com/google/flutter-desktop-embedding.git
+    path: plugins/window_size
+```
+### Observações
+Programa criado usando o android studio 4.0.1 utilizando o FLUTTER usando a biblioteca nativa do Http para consumir a Api do https://pokeapi.co/ e a dependecia do floor para ajudar na integração com o SQLite.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ Os layouts foram construidos usando Material Design da google
+ #### Aplicação simples usando o BottomNavigator para mudanças de telas sendo elas:
+ - **Todos:** Lista todos os pokemons, primeiramente consultando o banco local, caso não encontre dados utiliza a API para alimentar, de 10 em 10 apenas solicitando novos quando solicitado.
+ - **Pesquise:** Tela simples para pesquisar o pokemon desejado, primeiramente faz a pesquisa local usando LIKE e listando todos, se não encontrar faz a pesquisa API retornando apenas 1 resultado.
+ - **Favoritos:** Tela onde os pokemons escolhidos para serem favoritos são listados (pokemons adcionados como favoritos são salvos localmente para uma visualização mais 
+ rapida e sem precisar de conexão )
+ 
+ ### Build
+ Para realizar o download do APK acesse o link abaixo ( lembrando que o target api é acima da 23, Android 6.0 )
+ 
+ [V1](https://drive.google.com/file/d/1ibMEIBoj0fO581beyLRyvvE3ue4vtOVC/view?usp=sharing)
+ 
+ 
+ - Video demonstrando o funcionamento do app
+ 
+ [VIDEO]
