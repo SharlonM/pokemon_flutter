@@ -37,7 +37,7 @@ Programa criado usando o android studio 4.2.2 utilizando o FLUTTER usando a bibl
  
  [DEBUG](https://drive.google.com/file/d/1IOQULdeYHxeEjMqhq6l9-P1s8utYBXm4/view?usp=sharing)
  
- [DESKTOP](https://drive.google.com/file/d/1r_a-3AtrIGhmuAw-ZLpik9R32Oy3BCY2/view?usp=sharing) ( VERSÃO TESTE PARA COMPUTADOR )
+ [DESKTOP](https://drive.google.com/file/d/1r_a-3AtrIGhmuAw-ZLpik9R32Oy3BCY2/view?usp=sharing) ( VERSÃO TESTE PARA COMPUTADOR, PRECISA BAIXAR TODO O PROJETO )
  
  
  - Video demonstrando o funcionamento do app
