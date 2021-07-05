@@ -58,7 +58,7 @@ class _ViewSearchPokesState extends State<ViewSearchPokes> {
 
   Widget _aguardar() {
     Widget retorno = const Center(child: Text('nada encontrado'));
-    for (int i = 0; i > 100; i++) {
+    for (int i = 0; i < 1000; i++) {
       if (i < 90) {
         retorno = const Center(child: CircularProgressIndicator());
       } else {

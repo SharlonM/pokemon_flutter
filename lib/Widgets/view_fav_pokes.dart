@@ -97,7 +97,7 @@ class _ViewFavPokesState extends State<ViewFavPokes> {
     return Padding(
       padding: const EdgeInsets.only(left: 100, top: 20),
       child: Text(
-        'Adcione favoritos',
+        'Adicione favoritos',
         style: Utils.getStyle(28),
       ),
     );
